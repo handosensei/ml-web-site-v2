@@ -8,7 +8,7 @@ import Sections from "./Sections";
 import MetaConnect from "./MetaConnect";
 import LegendsZone from "./LegendsZone";
 import Team from "../components/Team";
-import Document from "../assets/Terms&Conditions Edited-2.docx";
+import {Link} from "react-router-dom";
 
 export default function Home() {
   const handleButtonClick = () => {
@@ -70,7 +70,7 @@ export default function Home() {
       <LegendsZone />
       <Team />
       <div className="footer">
-          <a href={Document}>© Terms & conditions</a>
+        <Link to="/terms-and-conditions">© Terms & conditions</Link>
       </div>
     </div>
   );

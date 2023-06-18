@@ -1,10 +1,11 @@
-import Home from "./pages/Home";
+import React from 'react';
+import Route from './Routes';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <React.Fragment>
+      <Route />
+    </React.Fragment>
   );
 }
 
