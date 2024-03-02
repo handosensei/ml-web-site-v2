@@ -3,6 +3,9 @@ import Mockup1 from "../assets/images/mockups/mockup1.svg";
 import Mockup2 from "../assets/images/mockups/mockup2.svg";
 import Mockup3 from "../assets/images/mockups/mockup3.svg";
 
+import Mockup4 from "../assets/images/nexy/app-screens.png";
+import Mockup5 from "../assets/images/nexy/repository.png";
+
 import fadeInOnScroll from "../components/FadeAnimation";
 
 export default function NexySocial() {
@@ -36,8 +39,9 @@ export default function NexySocial() {
           </p>
         </div>
         <div className="mockups">
-          <img className="mockup1" src={Mockup1} alt="" />
-          <img className="mockup2" src={Mockup2} alt="" />
+          {/*<img className="mockup1" src={Mockup1} alt="" />*/}
+          <img className="mockup01" src={Mockup4} alt="" />
+          {/*<img src={Mockup4} alt="" />*/}
         </div>
       </div>
 
@@ -60,7 +64,7 @@ export default function NexySocial() {
           </div>
         </div>
         <div className="mockup3">
-          <img src={Mockup3} alt="" />
+          <img src={Mockup5} alt="" />
         </div>
         <div className="textZone secondTextZone">
           <div>

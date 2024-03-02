@@ -24,7 +24,7 @@
     max-width: 1300px;
 
     @include flex-rules;
-    gap: 15em;
+    gap: 4em;
     margin: 50px auto;
   }
 
@@ -39,6 +39,10 @@
 
     .mockup2 {
       width: 220px;
+    }
+
+    .mockup01 {
+      width: 600px;
     }
   }
 
@@ -178,6 +182,10 @@
       .mockup2 {
         width: 140px;
       }
+
+      .mockup01 {
+        width: 430px;
+      }
     }
 
     .mcBottomBloc {
@@ -237,6 +245,10 @@
       .mockup2 {
         width: 140px;
       }
+
+      .mockup01 {
+        width: 400px;
+      }
     }
 
     .mcBottomBloc {
@@ -295,6 +307,10 @@
 
       .mockup2 {
         width: 75px;
+      }
+
+      .mockup01 {
+        width: 225px;
       }
     }
 
