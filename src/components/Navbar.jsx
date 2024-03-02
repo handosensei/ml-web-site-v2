@@ -89,6 +89,19 @@ function NavBar() {
                 Legends Zone
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="sectionRoadmap"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Roadmap
+              </Link>
+            </li>
             {/*<li className="nav-item">*/}
             {/*  <Link*/}
             {/*    to="sectionTeam"*/}

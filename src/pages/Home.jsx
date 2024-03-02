@@ -9,6 +9,7 @@ import MetaConnect from "./MetaConnect";
 import LegendsZone from "./LegendsZone";
 // import Team from "../components/Team";
 import {Link} from "react-router-dom";
+import Roadmap from "./Roadmap";
 
 export default function Home() {
   const handleButtonClick = () => {
@@ -64,6 +65,7 @@ export default function Home() {
       <Sections />
       <LegendsZone />
       {/*<Team />*/}
+      <Roadmap />
       <div className="footer">
         <Link to="/terms-and-conditions">© Terms & conditions</Link>
       </div>
