@@ -14,7 +14,7 @@ export default function Roadmap() {
     <section className="bgLegendZone fade-in-scroll" ref={el => elements.current.push(el)}>
       <div className="legendsZoneContainer" id="sectionRoadmap">
         <h2 className="title-with-gradient legendsZoneTitle">Roadmap </h2>
-        <img src={roadmapImg} alt="Roadmap" />
+        <img src={roadmapImg} className="img-80" alt="Roadmap" />
       </div>
     </section>
   );
