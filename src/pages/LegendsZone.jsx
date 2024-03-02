@@ -31,7 +31,7 @@ export default function LegendsZone() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Become <strong>a legend</strong>
+          Enter in the <strong>Legends Zone</strong>
         </a>
       </div>
     </section>
