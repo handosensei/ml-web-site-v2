@@ -69,7 +69,7 @@ export default function Home() {
       <div className="footer">
         <Link to="/terms-and-conditions">© Terms & conditions</Link>
         &nbsp;&nbsp;
-        <Link to="/policy">© Policy</Link>
+        <Link to="/policy">© Policy </Link>
       </div>
     </div>
   );
