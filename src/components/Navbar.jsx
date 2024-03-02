@@ -89,19 +89,19 @@ function NavBar() {
                 Meta Legends
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="sectionTeam"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Team
-              </Link>
-            </li>
+            {/*<li className="nav-item">*/}
+            {/*  <Link*/}
+            {/*    to="sectionTeam"*/}
+            {/*    spy={true}*/}
+            {/*    smooth={true}*/}
+            {/*    offset={-70}*/}
+            {/*    duration={500}*/}
+            {/*    className="nav-links"*/}
+            {/*    onClick={handleClick}*/}
+            {/*  >*/}
+            {/*    Team*/}
+            {/*  </Link>*/}
+            {/*</li>*/}
             <div className="socialLinks">
               <a
                 href="https://discord.gg/meta-life"
