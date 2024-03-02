@@ -4,7 +4,7 @@ import Mockup2 from "../assets/images/mockups/mockup2.svg";
 import Mockup3 from "../assets/images/mockups/mockup3.svg";
 
 import Mockup4 from "../assets/images/nexy/app-screens.png";
-import Mockup5 from "../assets/images/nexy/repository.png";
+import Mockup5 from "../assets/images/nexy/5.png";
 
 import fadeInOnScroll from "../components/FadeAnimation";
 
