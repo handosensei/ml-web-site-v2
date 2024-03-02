@@ -104,7 +104,7 @@ function NavBar() {
             </li>
             <div className="socialLinks">
               <a
-                href="https://discord.gg/meta-life-889533275545149440"
+                href="https://discord.gg/meta-life"
                 className="socialLinksButton"
                 target="_blank"
                 rel="noopener noreferrer"

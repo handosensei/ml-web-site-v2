@@ -7,8 +7,8 @@ export default function socialFactions() {
     <div>
       <div className="socialFactions">
           <a
-            href="https://discord.gg/meta-life-889533275545149440"
             className="socialLinkFactions socialDiscord"
+            href="https://discord.gg/meta-life"
             target="_blank"
             rel="noopener noreferrer"
           >
