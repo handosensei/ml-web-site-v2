@@ -65,7 +65,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <Link
-                to="sectionMetaConnect"
+                to="sectionNexySocial"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -73,7 +73,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Meta Connect
+                Nexy Social
               </Link>
             </li>
             <li className="nav-item">

@@ -5,7 +5,7 @@ import Mockup3 from "../assets/images/mockups/mockup3.svg";
 
 import fadeInOnScroll from "../components/FadeAnimation";
 
-export default function MetaConnect() {
+export default function NexySocial() {
   const elements = useRef([]);
 
   useEffect(() => {
@@ -16,23 +16,23 @@ export default function MetaConnect() {
     <div
       className="metaConnectContainer fade-in-scroll"
       ref={(el) => elements.current.push(el)}
-      id="sectionMetaConnect"
+      id="sectionNexySocial"
     >
       <div className="mcTopBloc">
         <div className="sectionText">
-          <h2 className="title-with-gradient">Meta connect</h2>
+          <h2 className="title-with-gradient">Nexy Social</h2>
           <p>
             NFTs are the new social. <br />
             <br />
-            NFTs are the new way to connect with others around the world. Meta
-            Connect is the first true social hub focused toward NFT enthusiasts
+            NFTs are the new way to connect with others around the world. Nexy Social
+            is the first true social hub focused toward NFT enthusiasts
             that truly enables its users.
             <br />
             <br /> This platform will provide new ways to make friends, build
             your network, organize events, and promote your collection.
             <br />
             <br /> Enhance the value of your brand with the game-changing
-            platform Meta Connect.
+            platform Nexy Social.
           </p>
         </div>
         <div className="mockups">
@@ -83,8 +83,8 @@ export default function MetaConnect() {
       </div>
 
       <button className="btnJoin">
-        <a href="https://meta-connect.io/" target="_blank">
-          Join <strong>meta connect</strong>
+        <a href="https://apps.apple.com/us/app/nexy-social/id1618206683" target="_blank">
+          Join <strong>Nexy Social</strong>
         </a>
       </button>
     </div>
