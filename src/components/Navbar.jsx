@@ -86,7 +86,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Meta Legends
+                Legends Zone
               </Link>
             </li>
             {/*<li className="nav-item">*/}
