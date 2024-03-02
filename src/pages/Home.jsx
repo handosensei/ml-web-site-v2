@@ -32,8 +32,6 @@ export default function Home() {
                 <span className="title-with-gradient centerBigTitle">
                   12345 Legends
                 </span>{" "}
-                <br />
-                <span className="subText">to Save humanity</span>
               </h1>
               <p>
                 Meta Legends is a collection of{" "}
@@ -41,17 +39,14 @@ export default function Home() {
                 blockchain composed of 7 distinctive classes and generated with
                 thousands of uniquely designed 3D traits. <br /> <br />
                 Minted in December 2021, Meta Legends was a{" "}
-                <span className="strongText">pioneer in the use of 3D</span> and
-                has made history as one of the most successful collections of
-                all time. <br /> <br />
-                Meta Legends has spread over 150 countries and gathered more
-                than 200,000 people around a single revolutionary vision: to
-                build the most prominent{" "}
-                <span className="strongText"> Web3 ecosystem </span>. <br />{" "}
+                <span className="strongText">pioneer in the use of 3D.</span> <br /> <br />
+                Meta Legends has spread over 150 countries around a single revolutionary vision: to
+                build one of the most prominent{" "}
+                <span className="strongText"> Web3 ecosystem.</span> <br />{" "}
                 <br />
                 <span className="strongText">
                   {" "}
-                  Your journey in the Metaverse begins now.{" "}
+                  Your journey begins now.{" "}
                 </span>
               </p>
             </div>
@@ -65,8 +60,8 @@ export default function Home() {
         </div>
       </div>
 
-      <Sections />
       <MetaConnect />
+      <Sections />
       <LegendsZone />
       {/*<Team />*/}
       <div className="footer">
