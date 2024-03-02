@@ -9,7 +9,6 @@ import MetaConnect from "./MetaConnect";
 import LegendsZone from "./LegendsZone";
 // import Team from "../components/Team";
 import {Link} from "react-router-dom";
-import Document from "../assets/Terms&Conditions Edited-2.docx";
 
 export default function Home() {
   const handleButtonClick = () => {
