@@ -70,7 +70,7 @@ export default function NexySocial() {
           <div>
             <h3 className="titleRight">Partners</h3>
             <p className="paragraphZone">
-              Partnering with Meta Connect will provide your brand or business
+              Partnering with Nexy will provide your brand or business
               prioritized exposure to our valued user base. Want to register
               your brand or business with us? Simply reach out!
             </p>
