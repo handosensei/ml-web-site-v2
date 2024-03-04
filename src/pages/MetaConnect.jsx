@@ -87,7 +87,7 @@ export default function NexySocial() {
       </div>
 
       <button className="btnJoin">
-        <a href="https://apps.apple.com/us/app/nexy-social/id1618206683" target="_blank">
+        <a href="https://play.google.com/store/apps/details?id=com.metaconnect.scalexholding&gl=FR" target="_blank">
           Join <strong>Nexy Social</strong>
         </a>
       </button>
