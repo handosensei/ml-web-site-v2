@@ -221,6 +221,9 @@ const TermsAndConditions = () => {
 
         <p>The mediator will attempt, with complete independence and impartiality, to bring the parties together with a view to reaching an amicable solution. The parties remain free to accept or refuse recourse to mediation as well as, in the event of recourse to mediation, to accept or refuse the solution proposed by the mediator. In this context, any European consumer can access the Online Dispute Resolution Platform accessible from the following URL: <a target="_blank" href="https://ec.europa.eu/consumers/odr/main/index.cfm">https://ec.europa.eu/consumers/odr/main/index.cfm</a>.</p>
 
+        <p>
+          The User acknowledges that the NFTs serve only as digital documentation of a limited ownership of rights with respect to the respective referenced Artwork and thus have only a digital documentation function. In particular, the NFTs do not represent a currency, any means of payment, claims, shares, rights of use or any other benefits in or towards XXX its affiliates or any third party. The NFTs must not be used as a means of payment and/or settlement or for staking.
+        </p>
     </div>
   );
 }
