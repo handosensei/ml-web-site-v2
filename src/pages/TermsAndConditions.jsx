@@ -21,7 +21,7 @@ const TermsAndConditions = () => {
 
         <p>
           The “LEGENDS” are a collection of 12345 pieces of digital artwork, distributed under the form of non-fungible
-          tokens (NFTs) stored on the Ethereum blockchain. META LEGENDS is part of a global ecosystem comprised of Meta-Connect: an
+          tokens (NFTs) stored on the Ethereum blockchain. This project is managed by RJ Consulting. META LEGENDS is part of a global ecosystem comprised of Meta-Connect: an
           application gathering all members of this system and allowing them to locate each other on a map, and Meta-Life: a shared
           universe enabling its members to interact with each other using their characters (“Legends”).
         </p>
