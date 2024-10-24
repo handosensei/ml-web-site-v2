@@ -39,12 +39,12 @@ export default function Home() {
                 <span className="strongText">12345 NFTs </span> on the Ethereum
                 blockchain composed of 7 distinctive classes and generated with
                 thousands of uniquely designed 3D traits. <br /> <br />
-                Minted in December 2021, Meta Legends was a{" "}
-                <span className="strongText">pioneer in the use of 3D.</span> <br /> <br />
-                Meta Legends has spread over 150 countries around a single revolutionary vision: to
-                build one of the most prominent{" "}
-                <span className="strongText"> Web3 ecosystem.</span> <br />{" "}
-                <br />
+                {/*Minted in December 2021, Meta Legends was a{" "}*/}
+                {/*<span className="strongText">pioneer in the use of 3D.</span> <br /> <br />*/}
+                {/*Meta Legends has spread over 150 countries around a single revolutionary vision: to*/}
+                {/*build one of the most prominent{" "}*/}
+                {/*<span className="strongText"> Web3 ecosystem.</span> <br />{" "}*/}
+                {/*<br />*/}
                 <span className="strongText">
                   {" "}
                   Your journey begins now.{" "}
