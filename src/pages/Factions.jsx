@@ -58,7 +58,7 @@ export default function Factions() {
 </p>
           </div>
         )}
-        <SocialFactions />
+        {/*<SocialFactions />*/}
       </div>
     </div>
     
