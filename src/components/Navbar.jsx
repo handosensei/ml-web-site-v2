@@ -36,120 +36,120 @@ function NavBar() {
             />
           </Link>
 
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link
-                to="sectionHome"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="sectionMetaLife"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Meta Life
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="sectionNexySocial"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Nexy Social
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="sectionLegendsZone"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Legends Zone
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="sectionRoadmap"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Roadmap
-              </Link>
-            </li>
-            {/*<li className="nav-item">*/}
-            {/*  <Link*/}
-            {/*    to="sectionTeam"*/}
-            {/*    spy={true}*/}
-            {/*    smooth={true}*/}
-            {/*    offset={-70}*/}
-            {/*    duration={500}*/}
-            {/*    className="nav-links"*/}
-            {/*    onClick={handleClick}*/}
-            {/*  >*/}
-            {/*    Team*/}
-            {/*  </Link>*/}
-            {/*</li>*/}
-            <div className="socialLinks">
-              <a
-                href="https://discord.gg/meta-life"
-                className="socialLinksButton"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faDiscord} />
-              </a>
-              <a
-                href="https://twitter.com/metalegendsnft"
-                className="socialLinksButton"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faTwitter} />
-              </a>
-              <a
-                href="https://www.instagram.com/meta.legends/"
-                className="socialLinksButton"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-              <a
-                href="https://opensea.io/collection/meta-legends"
-                className="socialLinksButton openSeaIcone"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={OpenSeaLogo} alt="Logo Opensea" />
-              </a>
-            </div>
-          </ul>
+          {/*<ul className={click ? "nav-menu active" : "nav-menu"}>*/}
+          {/*  <li className="nav-item">*/}
+          {/*    <Link*/}
+          {/*      to="sectionHome"*/}
+          {/*      spy={true}*/}
+          {/*      smooth={true}*/}
+          {/*      offset={-70}*/}
+          {/*      duration={500}*/}
+          {/*      className="nav-links"*/}
+          {/*      onClick={handleClick}*/}
+          {/*    >*/}
+          {/*      Home*/}
+          {/*    </Link>*/}
+          {/*  </li>*/}
+          {/*  <li className="nav-item">*/}
+          {/*    <Link*/}
+          {/*      to="sectionMetaLife"*/}
+          {/*      spy={true}*/}
+          {/*      smooth={true}*/}
+          {/*      offset={-70}*/}
+          {/*      duration={500}*/}
+          {/*      className="nav-links"*/}
+          {/*      onClick={handleClick}*/}
+          {/*    >*/}
+          {/*      Meta Life*/}
+          {/*    </Link>*/}
+          {/*  </li>*/}
+          {/*  <li className="nav-item">*/}
+          {/*    <Link*/}
+          {/*      to="sectionNexySocial"*/}
+          {/*      spy={true}*/}
+          {/*      smooth={true}*/}
+          {/*      offset={-70}*/}
+          {/*      duration={500}*/}
+          {/*      className="nav-links"*/}
+          {/*      onClick={handleClick}*/}
+          {/*    >*/}
+          {/*      Nexy Social*/}
+          {/*    </Link>*/}
+          {/*  </li>*/}
+          {/*  <li className="nav-item">*/}
+          {/*    <Link*/}
+          {/*      to="sectionLegendsZone"*/}
+          {/*      spy={true}*/}
+          {/*      smooth={true}*/}
+          {/*      offset={-70}*/}
+          {/*      duration={500}*/}
+          {/*      className="nav-links"*/}
+          {/*      onClick={handleClick}*/}
+          {/*    >*/}
+          {/*      Legends Zone*/}
+          {/*    </Link>*/}
+          {/*  </li>*/}
+          {/*  <li className="nav-item">*/}
+          {/*    <Link*/}
+          {/*      to="sectionRoadmap"*/}
+          {/*      spy={true}*/}
+          {/*      smooth={true}*/}
+          {/*      offset={-70}*/}
+          {/*      duration={500}*/}
+          {/*      className="nav-links"*/}
+          {/*      onClick={handleClick}*/}
+          {/*    >*/}
+          {/*      Roadmap*/}
+          {/*    </Link>*/}
+          {/*  </li>*/}
+          {/*  /!*<li className="nav-item">*!/*/}
+          {/*  /!*  <Link*!/*/}
+          {/*  /!*    to="sectionTeam"*!/*/}
+          {/*  /!*    spy={true}*!/*/}
+          {/*  /!*    smooth={true}*!/*/}
+          {/*  /!*    offset={-70}*!/*/}
+          {/*  /!*    duration={500}*!/*/}
+          {/*  /!*    className="nav-links"*!/*/}
+          {/*  /!*    onClick={handleClick}*!/*/}
+          {/*  /!*  >*!/*/}
+          {/*  /!*    Team*!/*/}
+          {/*  /!*  </Link>*!/*/}
+          {/*  /!*</li>*!/*/}
+          {/*  <div className="socialLinks">*/}
+          {/*    <a*/}
+          {/*      href="https://discord.gg/meta-life"*/}
+          {/*      className="socialLinksButton"*/}
+          {/*      target="_blank"*/}
+          {/*      rel="noopener noreferrer"*/}
+          {/*    >*/}
+          {/*      <FontAwesomeIcon icon={faDiscord} />*/}
+          {/*    </a>*/}
+          {/*    <a*/}
+          {/*      href="https://twitter.com/metalegendsnft"*/}
+          {/*      className="socialLinksButton"*/}
+          {/*      target="_blank"*/}
+          {/*      rel="noopener noreferrer"*/}
+          {/*    >*/}
+          {/*      <FontAwesomeIcon icon={faTwitter} />*/}
+          {/*    </a>*/}
+          {/*    <a*/}
+          {/*      href="https://www.instagram.com/meta.legends/"*/}
+          {/*      className="socialLinksButton"*/}
+          {/*      target="_blank"*/}
+          {/*      rel="noopener noreferrer"*/}
+          {/*    >*/}
+          {/*      <FontAwesomeIcon icon={faInstagram} />*/}
+          {/*    </a>*/}
+          {/*    <a*/}
+          {/*      href="https://opensea.io/collection/meta-legends"*/}
+          {/*      className="socialLinksButton openSeaIcone"*/}
+          {/*      target="_blank"*/}
+          {/*      rel="noopener noreferrer"*/}
+          {/*    >*/}
+          {/*      <img src={OpenSeaLogo} alt="Logo Opensea" />*/}
+          {/*    </a>*/}
+          {/*  </div>*/}
+          {/*</ul>*/}
           <div className="nav-icon" onClick={handleClick}>
             <FontAwesomeIcon icon={click ? faTimes : faBars} />
           </div>
