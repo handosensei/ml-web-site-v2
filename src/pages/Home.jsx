@@ -53,22 +53,22 @@ export default function Home() {
             </div>
             <ImagesLot />
           </div>
-          <button className="btn" onClick={handleButtonClick}>
-            Get your <strong>meta legend</strong>
-            <img src={OpenSeaLogo} alt="Logo Opensea" />
-          </button>
+          {/*<button className="btn" onClick={handleButtonClick}>*/}
+          {/*  Get your <strong>meta legend</strong>*/}
+          {/*  <img src={OpenSeaLogo} alt="Logo Opensea" />*/}
+          {/*</button>*/}
           <Factions />
         </div>
       </div>
 
-      <MetaConnect />
-      <Sections />
-      <LegendsZone />
+      {/*<MetaConnect />*/}
+      {/*<Sections />*/}
+      {/*<LegendsZone />*/}
       {/*<Team />*/}
-      <Roadmap />
+      {/*<Roadmap />*/}
       <div className="footer">
-        <Link to="/terms-and-conditions">© Terms & conditions</Link>
-        &nbsp;&nbsp;
+        {/*<Link to="/terms-and-conditions">© Terms & conditions</Link>*/}
+        {/*&nbsp;&nbsp;*/}
         <Link to="/policy">© Policy </Link>
       </div>
     </div>

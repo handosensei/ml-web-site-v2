@@ -150,9 +150,9 @@ function NavBar() {
           {/*    </a>*/}
           {/*  </div>*/}
           {/*</ul>*/}
-          <div className="nav-icon" onClick={handleClick}>
-            <FontAwesomeIcon icon={click ? faTimes : faBars} />
-          </div>
+          {/*<div className="nav-icon" onClick={handleClick}>*/}
+          {/*  <FontAwesomeIcon icon={click ? faTimes : faBars} />*/}
+          {/*</div>*/}
         </div>
       </nav>
     </>
