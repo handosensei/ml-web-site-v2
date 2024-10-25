@@ -66,11 +66,11 @@ export default function Home() {
       {/*<LegendsZone />*/}
       {/*<Team />*/}
       {/*<Roadmap />*/}
-      <div className="footer">
+      {/*<div className="footer">*/}
         {/*<Link to="/terms-and-conditions">© Terms & conditions</Link>*/}
         {/*&nbsp;&nbsp;*/}
-        <Link to="/policy">© Policy </Link>
-      </div>
+        {/*<Link to="/policy">© Policy </Link>*/}
+      {/*</div>*/}
     </div>
   );
 }
